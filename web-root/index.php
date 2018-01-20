@@ -6,13 +6,13 @@ header('Content-Type: text/html; charset=utf-8');
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans" type="text/css">
-    <link rel="stylesheet" href="/icomoon.css" type="text/css">
-    <link rel="stylesheet" href="/perfect-scrollbar.min.css" type="text/css">
-    <link rel="stylesheet" href="/style.css" type="text/css">
+    <link rel="stylesheet" href="icomoon.css" type="text/css">
+    <link rel="stylesheet" href="perfect-scrollbar.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script src="/scripts/satellite.min.js"></script>
-    <script src="/script-loader.php"></script>
+    <script src="scripts/satellite.min.js"></script>
+    <script src="script-loader.php"></script>
     
     <?php if($_SERVER['HTTP_HOST'] === 'stuffin.space' || $_SERVER['HTTP_HOST'] === 'www.stuffin.space') { ?>
       <script>
@@ -71,15 +71,15 @@ header('Content-Type: text/html; charset=utf-8');
           <span class="box-header">Legend</span>
           <ul id="legend">
             <li>
-               <img class="dot" src="/dot-red.png"></img>
+               <img class="dot" src="dot-red.png"></img>
                Satellite
              </li>
             <li>
-              <img class="dot" src="/dot-blue.png"></img>
+              <img class="dot" src="dot-blue.png"></img>
               Rocket body
             </li>
             <li>
-              <img class="dot" src="/dot-grey.png"></img>
+              <img class="dot" src="dot-grey.png"></img>
               Debris
             </li>
           </ul>
